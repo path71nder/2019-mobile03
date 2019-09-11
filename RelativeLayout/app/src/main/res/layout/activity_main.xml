@@ -8,7 +8,7 @@
 
 	<Button
 		android:id="@+id/top"
-		android:layout_width="391dp"
+		android:layout_width="399dp"
 		android:layout_height="wrap_content"
 		android:layout_alignParentStart="true"
 		android:layout_alignParentEnd="true"
@@ -27,4 +27,24 @@
 		android:layout_marginEnd="5dp"
 		android:layout_marginBottom="31dp"
 		android:text="Bottom" />
+
+	<Button
+		android:id="@+id/leftbelowtop"
+		android:layout_width="152dp"
+		android:layout_height="wrap_content"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginEnd="238dp"
+		android:layout_marginBottom="604dp"
+		android:text="Left Below Top" />
+
+	<Button
+		android:id="@+id/rightabovebottom"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginEnd="13dp"
+		android:layout_marginBottom="110dp"
+		android:text="Right Above Bottom" />
 </RelativeLayout>
